@@ -1,0 +1,23 @@
+[
+    {
+        "type": "Book",
+        "title": "Book Title",
+        "author": "Author Name",
+        "price": 19.99,
+        "pages": 300
+    },
+    {
+        "type": "Magazine",
+        "title": "Tech Magazine",
+        "author": "Editor Name",
+        "price": 5.99,
+        "issue": "April 2024"
+    },
+    {
+        "type": "Comic",
+        "title": "Superhero Adventures",
+        "author": "Comic Author",
+        "price": 7.99,
+        "artist": "Famous Illustrator"
+    }
+]
