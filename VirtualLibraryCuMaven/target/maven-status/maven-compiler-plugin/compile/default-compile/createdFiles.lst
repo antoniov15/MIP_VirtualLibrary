@@ -1,0 +1,7 @@
+org\example\modules\Magazine.class
+org\example\modules\Book.class
+org\example\interfaces\Storable.class
+org\example\modules\Comic.class
+org\example\LibraryApp.class
+org\example\modules\Item.class
+org\example\modules\LibraryManager.class

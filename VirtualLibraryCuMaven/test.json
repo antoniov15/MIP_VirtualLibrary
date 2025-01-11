@@ -1,0 +1,16 @@
+[
+    {
+        "pages": 456,
+        "author": "Aut",
+        "price": 452.22,
+        "type": "Book",
+        "title": "Carte"
+    },
+    {
+        "issue": "1212",
+        "author": "adsa",
+        "price": 45,
+        "type": "Magazine",
+        "title": "asda"
+    }
+]

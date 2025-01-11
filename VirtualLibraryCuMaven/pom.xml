@@ -22,6 +22,15 @@
             <artifactId>json</artifactId>
             <version>20240303</version>
         </dependency>
+
+        <!-- Biblioteca JUnit pentru teste -->
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.10.0</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 </project>
 

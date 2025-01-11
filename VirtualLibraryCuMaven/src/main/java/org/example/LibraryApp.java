@@ -5,6 +5,19 @@ import java.util.Scanner;
 import java.io.IOException;
 
 public class LibraryApp {
+    public static void test(String[] args) {
+        LibraryManager library = new LibraryManager();
+        library.addItem(new Book("Book Title", "Author Name", 29.99, 200));
+        library.addItem(new Magazine("Magazine Title", "Author Name", 5.99, "Issue #1"));
+
+        try {
+            library.saveToFile("test.json");
+            System.out.println("Saved data to test.json.");
+        } catch (IOException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+    }
+
     public static void main(String[] args) {
         LibraryManager library = new LibraryManager();
         Scanner scanner = new Scanner(System.in);

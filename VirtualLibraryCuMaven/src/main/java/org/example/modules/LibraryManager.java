@@ -19,6 +19,10 @@ public class LibraryManager implements Storable {
         items.add(item);
     }
 
+    public List<Item> getItems() {
+        return items;
+    }
+
     public void listItems() {
         for (Item item : items) {
             System.out.println(item);
